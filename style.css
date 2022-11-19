@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+* {
+	font-family: Montserrat, arial;
+	color: white;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: hsl(200, 100%, 5%);
+}
+
+input {
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	background-color: hsl(210, 100%, 20%);
+	color: white;
+}
+
+.input-container > input {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+button {
+	width: 125px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background-color: hsl(200, 100%, 40%);
+	color: white;
+	transition: 0.3s;
+}
+
+.input-container > button {
+	position: relative;
+	bottom: 30px;
+}
+
+button:hover {
+	background-color: hsl(200, 100%, 30%);
+}
+
+
+.atom-search {
+	display: flex;
+	margin-top: 10px;
+	border: 2px solid white;
+}
+
+.input-container {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.search-by-location {
+	position: fixed;
+	top: 250px;
+	left: 50px;
+	display: flex;
+	padding: 20px;
+	border: 2px solid white;
+}
+
+.search-by-location > button {
+	height: 100px;
+	margin-top: 10px;
+}
+
+.location-input > input {
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.location-inputs {
+	display: flex;
+	flex-direction: column;
+}
+

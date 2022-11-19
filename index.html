@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./style.css"></link>
+		<title>Periodic Table Search</title>
+	</head>
+	<body>
+
+		<div class="atom-search">
+			<div class="input-container" id="name">
+				<input type="text" id="input-name"></input>
+				<button id="button-name">Search Name</button>	
+			</div>
+	
+			<div class="input-container" id="symbol">
+				<input type="text" id="input-symbol"></input>
+				<button id="button-symbol">Search Symbol</button>
+	
+			</div>
+
+			<div class="input-container" id="number">
+				<input type="text" id="input-number"></input>
+				<button id="button-number">Search Atomic Number</button>
+			</div>
+		</div>
+
+		<div id="output"></div>
+
+		<div class="search-by-location">
+			<div class="location-inputs">
+				<div class="location-input" id="group">
+					<label>Group</label>
+					<input></input>
+				</div>
+
+				<div class="location-input" id="period">
+					<label>Period</label>
+					<input></input>
+				</div>
+			</div>
+
+	
+
+			<button>Find Atom</button>
+		</div>
+
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
