@@ -87,3 +87,30 @@ button:hover {
 	flex-direction: column;
 }
 
+
+@media screen and (max-width: 940px) {
+	#output {
+		position: relative;
+		left: 150px;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	.atom-search {
+		flex-direction:	column;
+	}
+
+	.search-by-location {
+		flex-direction: column;
+		position: relative;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+	}
+
+	#output {
+		position: relative;
+		left: 0px;
+	}
+}
